@@ -1,12 +1,7 @@
 @extends('layouts.master')
 
 @section('content')
-      <header>
-        <div class="colorlib-navbar-brand text-center">
-          <a class="colorlib-logo" href="index.html">Garda Multi Solusi Teknika</a>
-        </div>
-        <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
-      </header>
+      @include('components.header')
 
       <section class="home-slider owl-carousel">
         <a href="portfolio.html" class="slider-item" style="background-image: url(images/bg_1.jpg);">
@@ -54,6 +49,19 @@
         </a>
       </section>
 
+      <section class="ftco-counter" id="section-counter">
+	    	<div class="container">
+	    		<div class="row d-flex">
+	    			<div class="col-md-7 py-sm-3 py-md-5">
+            <h3 class="mb-3">About Us</h3> 
+              <p>PT. GARDA <span style="color: #fe4c50;"> TEKNIKA </span> is a company with extensive experience in the instrumentation products for measurement, monitoring and Quality control. <br>Our products and control systems bring enormous advantages to industry and also education with greater effectiveness in the implementation of industrial processes and as a direct result the client takes advantage of a greater performance and higher profitability of the available means. </p>
+		        </div>
+		        <div class="col-md-5 d-flex justify-content-center align-items-center img exp" style="background-image: url(images/image_1.jpg);">
+		        </div>
+	        </div>
+	    	</div>
+      </section>
+      
         <section class="ftco-services">
           <div class="container">
             <div class="row no-gutters">
