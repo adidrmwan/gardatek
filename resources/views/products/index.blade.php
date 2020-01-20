@@ -26,7 +26,7 @@
 		              <!-- <p>Far far away, behind the word mountains, far from the countries Vokalia </p> -->
 		            </div>
 	            </div>
-		    			<a href="portfolio.html" class="portfolio ftco-animate">
+		    			<a href="{{ route('material-research.index') }}" class="portfolio ftco-animate">
 		    				<div class="d-flex icon justify-content-center align-items-center">
 		    					<span class="ion-md-search"></span>
 		    				</div>
@@ -38,7 +38,7 @@
 		    				</div>
 		    				<img src="images/image_3.jpg" class="img-fluid" alt="Colorlib Template">
 		    			</a>
-		    			<a href="portfolio.html" class="portfolio ftco-animate">
+		    			<a href="{{ route('agriculture.index') }}" class="portfolio ftco-animate">
 			    			<div class="d-flex icon justify-content-center align-items-center">
 			    				<span class="ion-md-search"></span>
 		    				</div>
@@ -50,7 +50,7 @@
 		    				</div>
 		    				<img src="images/image_2.jpg" class="img-fluid" alt="Colorlib Template">
 		    			</a>
-		    			<a href="portfolio.html" class="portfolio ftco-animate">
+		    			<a href="automation-system" class="portfolio ftco-animate">
 			    			<div class="d-flex icon justify-content-center align-items-center">
 			    				<span class="ion-md-search"></span>
 			    			</div>
@@ -64,7 +64,7 @@
 		    			</a>
 		    		</div>
 		    		<div class="col-md-8">
-		    			<a href="portfolio.html" class="portfolio ftco-animate">
+		    			<a href="{{ route('engineering.index') }}" class="portfolio ftco-animate">
 			    			<div class="d-flex icon justify-content-center align-items-center">
 			    					<span class="ion-md-search"></span>
 			    			</div>
@@ -78,7 +78,7 @@
 		    			</a>
 		    			<div class="row">
 		    				<div class="col-md-6">
-		    					<a href="portfolio.html" class="portfolio ftco-animate">
+		    					<a href="{{ route('medicine.index') }}" class="portfolio ftco-animate">
 			    					<div class="d-flex icon justify-content-center align-items-center">
 				    					<span class="ion-md-search"></span>
 				    				</div>
@@ -92,7 +92,7 @@
 				    			</a>
 		    				</div>
 		    				<div class="col-md-6">
-		    					<a href="portfolio.html" class="portfolio ftco-animate">
+		    					<a href="{{ route('energy.index') }}" class="portfolio ftco-animate">
 			    					<div class="d-flex icon justify-content-center align-items-center">
 				    					<span class="ion-md-search"></span>
 				    				</div>
@@ -108,7 +108,7 @@
 		    			</div>
 		    			<div class="row">
 		    				<div class="col-md-8">
-		    					<a href="portfolio.html" class="portfolio ftco-animate">
+		    					<a href="{{ route('transportation-engineering.index') }}" class="portfolio ftco-animate">
 			    					<div class="d-flex icon justify-content-center align-items-center">
 				    					<span class="ion-md-search"></span>
 				    				</div>
@@ -122,7 +122,7 @@
 				    			</a>
 		    				</div>
 		    				<div class="col-md-4">
-		    					<a href="portfolio.html" class="portfolio ftco-animate">
+		    					<a href="{{ route('photonic-technology.index') }}" class="portfolio ftco-animate">
 			    					<div class="d-flex icon justify-content-center align-items-center">
 			    						<span class="ion-md-search"></span>
 			    				  </div>
