@@ -7341,7 +7341,7 @@ h1, h2, h3, h4, h5,
 .text-primary {
   color: #53d397 !important; }
 
-#colorlib-main-nav {
+#gardatek-main-nav {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -7365,11 +7365,11 @@ h1, h2, h3, h4, h5,
   -o-transform: scale(0);
   transform: scale(0);
   overflow-y: scroll; }
-  #colorlib-main-nav .colorlib-table {
+  #gardatek-main-nav .gardatek-table {
     display: table;
     width: 100%;
     height: 100%; }
-    #colorlib-main-nav .colorlib-table .img {
+    #gardatek-main-nav .gardatek-table .img {
       position: absolute;
       top: 0;
       left: 0;
@@ -7377,7 +7377,7 @@ h1, h2, h3, h4, h5,
       height: 100%;
       width: 35%;
       opacity: 0; }
-      #colorlib-main-nav .colorlib-table .img:after {
+      #gardatek-main-nav .gardatek-table .img:after {
         position: absolute;
         top: 0;
         left: 0;
@@ -7386,12 +7386,12 @@ h1, h2, h3, h4, h5,
         content: '';
         background: rgba(27, 33, 44, 0.3); }
       @media (min-width: 768px) {
-        #colorlib-main-nav .colorlib-table .img {
+        #gardatek-main-nav .gardatek-table .img {
           opacity: 1; } }
-    #colorlib-main-nav .colorlib-table .colorlib-table-cell {
+    #gardatek-main-nav .gardatek-table .gardatek-table-cell {
       display: table-cell;
       vertical-align: middle; }
-  #colorlib-main-nav .colorlib-nav-toggle {
+  #gardatek-main-nav .gardatek-nav-toggle {
     position: absolute;
     top: 40px;
     right: 40px;
@@ -7406,28 +7406,28 @@ h1, h2, h3, h4, h5,
     -o-transition: 0.3s;
     transition: 0.3s; }
     @media screen and (prefers-reduced-motion: reduce) {
-      #colorlib-main-nav .colorlib-nav-toggle {
+      #gardatek-main-nav .gardatek-nav-toggle {
         -webkit-transition: none;
         -o-transition: none;
         transition: none; } }
-    #colorlib-main-nav .colorlib-nav-toggle i {
+    #gardatek-main-nav .gardatek-nav-toggle i {
       top: 18px !important;
       left: 0 !important;
       margin: 0 !important;
       padding: 0 !important;
       line-height: 0;
       text-indent: 0; }
-    #colorlib-main-nav .colorlib-nav-toggle.show {
+    #gardatek-main-nav .gardatek-nav-toggle.show {
       visibility: visible;
       opacity: 1; }
-    #colorlib-main-nav .colorlib-nav-toggle:hover i::before, #colorlib-main-nav .colorlib-nav-toggle:hover i::after {
+    #gardatek-main-nav .gardatek-nav-toggle:hover i::before, #gardatek-main-nav .gardatek-nav-toggle:hover i::after {
       content: '';
       width: 40px;
       height: 2px;
       background: #fff;
       position: absolute;
       left: 0; }
-  .menu-show #colorlib-main-nav {
+  .menu-show #gardatek-main-nav {
     visibility: visible;
     opacity: 1;
     -webkit-transform: scale(1);
@@ -7435,14 +7435,14 @@ h1, h2, h3, h4, h5,
     -ms-transform: scale(1);
     -o-transform: scale(1);
     transform: scale(1); }
-  #colorlib-main-nav .logo {
+  #gardatek-main-nav .logo {
     font-size: 20px;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 400;
     position: relative; }
-    #colorlib-main-nav .logo:after {
+    #gardatek-main-nav .logo:after {
       position: absolute;
       top: -3px;
       left: -7px;
@@ -7453,7 +7453,7 @@ h1, h2, h3, h4, h5,
       border: 2px solid white;
       border-right: 1px solid transparent;
       z-index: -1; }
-    #colorlib-main-nav .logo:before {
+    #gardatek-main-nav .logo:before {
       position: absolute;
       top: -3px;
       right: -6px;
@@ -7464,28 +7464,28 @@ h1, h2, h3, h4, h5,
       border: 2px solid white;
       border-left: 1px solid transparent;
       z-index: -1; }
-  #colorlib-main-nav ul {
+  #gardatek-main-nav ul {
     padding: 0;
     margin: 0;
     display: block; }
     @media (max-width: 767.98px) {
-      #colorlib-main-nav ul {
+      #gardatek-main-nav ul {
         padding: 20px 0 0 0; } }
-    #colorlib-main-nav ul li {
+    #gardatek-main-nav ul li {
       padding: 0;
       margin: 0;
       list-style: none;
       font-weight: 400; }
-      #colorlib-main-nav ul li a {
+      #gardatek-main-nav ul li a {
         display: block;
         color: white;
         padding: 5px 0; }
-        #colorlib-main-nav ul li a span {
+        #gardatek-main-nav ul li a span {
           font-size: 30px;
           color: white;
           position: relative;
           padding: 0 10px; }
-          #colorlib-main-nav ul li a span small {
+          #gardatek-main-nav ul li a span small {
             position: absolute;
             bottom: 7px;
             left: -30px;
@@ -7493,21 +7493,21 @@ h1, h2, h3, h4, h5,
             color: rgba(255, 255, 255, 0.3);
             border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
           @media (max-width: 767.98px) {
-            #colorlib-main-nav ul li a span {
+            #gardatek-main-nav ul li a span {
               font-size: 30px; } }
-        #colorlib-main-nav ul li a:hover, #colorlib-main-nav ul li a:active, #colorlib-main-nav ul li a:focus {
+        #gardatek-main-nav ul li a:hover, #gardatek-main-nav ul li a:active, #gardatek-main-nav ul li a:focus {
           outline: none;
           text-decoration: none; }
-          #colorlib-main-nav ul li a:hover span:before, #colorlib-main-nav ul li a:active span:before, #colorlib-main-nav ul li a:focus span:before {
+          #gardatek-main-nav ul li a:hover span:before, #gardatek-main-nav ul li a:active span:before, #gardatek-main-nav ul li a:focus span:before {
             visibility: visible;
             -webkit-transform: scaleX(1);
             -moz-transform: scaleX(1);
             -ms-transform: scaleX(1);
             -o-transform: scaleX(1);
             transform: scaleX(1); }
-      #colorlib-main-nav ul li.active a span {
+      #gardatek-main-nav ul li.active a span {
         color: #53d397; }
-        #colorlib-main-nav ul li.active a span:before {
+        #gardatek-main-nav ul li.active a span:before {
           background: #53d397;
           visibility: visible;
           -webkit-transform: scaleX(1);
@@ -7528,16 +7528,16 @@ header {
     header {
       padding: 2em 0;
       position: absolute; } }
-  header .colorlib-navbar-brand {
+  header .gardatek-navbar-brand {
     width: 100%; }
-    header .colorlib-navbar-brand .colorlib-logo {
+    header .gardatek-navbar-brand .gardatek-logo {
       font-size: 20px;
       color: #fff;
       text-transform: uppercase;
       letter-spacing: 2px;
       font-weight: 400;
       position: relative; }
-      header .colorlib-navbar-brand .colorlib-logo:after {
+      header .gardatek-navbar-brand .gardatek-logo:after {
         position: absolute;
         top: -3px;
         left: -7px;
@@ -7548,7 +7548,7 @@ header {
         border: 2px solid white;
         border-right: 1px solid transparent;
         z-index: -1; }
-      header .colorlib-navbar-brand .colorlib-logo:before {
+      header .gardatek-navbar-brand .gardatek-logo:before {
         position: absolute;
         top: -3px;
         right: -6px;
@@ -7560,17 +7560,17 @@ header {
         border-left: 1px solid transparent;
         z-index: -1; }
 
-.colorlib-nav-toggle {
+.gardatek-nav-toggle {
   cursor: pointer;
   text-decoration: none; }
-  .colorlib-nav-toggle.active i::before, .colorlib-nav-toggle.active i::after {
+  .gardatek-nav-toggle.active i::before, .gardatek-nav-toggle.active i::after {
     background: #1b212c; }
-  .colorlib-nav-toggle.dark.active i::before, .colorlib-nav-toggle.dark.active i::after {
+  .gardatek-nav-toggle.dark.active i::before, .gardatek-nav-toggle.dark.active i::after {
     background: #1b212c; }
-  .colorlib-nav-toggle:hover, .colorlib-nav-toggle:focus, .colorlib-nav-toggle:active {
+  .gardatek-nav-toggle:hover, .gardatek-nav-toggle:focus, .gardatek-nav-toggle:active {
     outline: none;
     border-bottom: none !important; }
-  .colorlib-nav-toggle i {
+  .gardatek-nav-toggle i {
     position: relative;
     display: inline-block;
     width: 20px;
@@ -7583,10 +7583,10 @@ header {
     -webkit-transition: all .2s ease-out;
     -o-transition: all .2s ease-out;
     transition: all .2s ease-out; }
-    .menu-show .colorlib-nav-toggle i {
+    .menu-show .gardatek-nav-toggle i {
       background: #fff;
       color: #fff; }
-    .colorlib-nav-toggle i::before, .colorlib-nav-toggle i::after {
+    .gardatek-nav-toggle i::before, .gardatek-nav-toggle i::after {
       content: '';
       width: 30px;
       height: 2px;
@@ -7596,47 +7596,47 @@ header {
       -webkit-transition: 0.2s;
       -o-transition: 0.2s;
       transition: 0.2s; }
-      .menu-show .colorlib-nav-toggle i::before, .menu-show .colorlib-nav-toggle i::after {
+      .menu-show .gardatek-nav-toggle i::before, .menu-show .gardatek-nav-toggle i::after {
         background: #fff; }
       @media screen and (prefers-reduced-motion: reduce) {
-        .colorlib-nav-toggle i::before, .colorlib-nav-toggle i::after {
+        .gardatek-nav-toggle i::before, .gardatek-nav-toggle i::after {
           -webkit-transition: none;
           -o-transition: none;
           transition: none; } }
-  .colorlib-nav-toggle.dark i {
+  .gardatek-nav-toggle.dark i {
     position: relative;
     color: #fff;
     background: #fff;
     -webkit-transition: all .2s ease-out;
     -o-transition: all .2s ease-out;
     transition: all .2s ease-out; }
-    .colorlib-nav-toggle.dark i::before, .colorlib-nav-toggle.dark i::after {
+    .gardatek-nav-toggle.dark i::before, .gardatek-nav-toggle.dark i::after {
       background: #fff;
       -webkit-transition: 0.2s;
       -o-transition: 0.2s;
       transition: 0.2s; }
       @media screen and (prefers-reduced-motion: reduce) {
-        .colorlib-nav-toggle.dark i::before, .colorlib-nav-toggle.dark i::after {
+        .gardatek-nav-toggle.dark i::before, .gardatek-nav-toggle.dark i::after {
           -webkit-transition: none;
           -o-transition: none;
           transition: none; } }
 
-.colorlib-nav-toggle i::before {
+.gardatek-nav-toggle i::before {
   top: -7px; }
 
-.colorlib-nav-toggle i::after {
+.gardatek-nav-toggle i::after {
   bottom: -7px; }
 
-.colorlib-nav-toggle:hover i::before {
+.gardatek-nav-toggle:hover i::before {
   top: -10px; }
 
-.colorlib-nav-toggle:hover i::after {
+.gardatek-nav-toggle:hover i::after {
   bottom: -10px; }
 
-.colorlib-nav-toggle.active i {
+.gardatek-nav-toggle.active i {
   background: transparent; }
 
-.colorlib-nav-toggle.active i::before {
+.gardatek-nav-toggle.active i::before {
   top: 0;
   -webkit-transform: rotateZ(45deg);
   -moz-transform: rotateZ(45deg);
@@ -7644,7 +7644,7 @@ header {
   -o-transform: rotateZ(45deg);
   transform: rotateZ(45deg); }
 
-.colorlib-nav-toggle.active i::after {
+.gardatek-nav-toggle.active i::after {
   bottom: 0;
   -webkit-transform: rotateZ(-45deg);
   -moz-transform: rotateZ(-45deg);
@@ -7652,7 +7652,7 @@ header {
   -o-transform: rotateZ(-45deg);
   transform: rotateZ(-45deg); }
 
-.colorlib-nav-toggle {
+.gardatek-nav-toggle {
   float: right;
   z-index: 1003;
   position: absolute;

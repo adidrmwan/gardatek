@@ -4,7 +4,7 @@
     <div>
     @include('components.header')
 
-      <section class="hero-wrap" style="background-image: url(images/bg_2.jpg);">
+      <section class="hero-wrap" style="background-image: url(images/contact-us.jpg);">
       	<div class="overlay"></div>
 	      <div class="container">
 	        <div class="row no-gutters text align-items-end justify-content-center" data-scrollax-parent="true">
@@ -25,18 +25,20 @@
             </div>
             <div class="w-100"></div>
             <div class="col-md-3">
-              <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+              <p><span>Office I :</span> <br>JL. Brawijaya No. 209 Pungging Mojokerto : 61483</p>
             </div>
             <div class="col-md-3">
-              <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+              <p><span>Office II :</span> <br>JL. Raya Lakarsantri No. 97 Surabaya : 60211</p>
             </div>
             <div class="col-md-3">
-              <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+              <p><span>Phone :</span><br> <a href="tel://0317508490">031 750 8490</a></p>
             </div>
             <div class="col-md-3">
-              <p><span>Website:</span> <a href="#">yoursite.com</a></p>
+              <p><span>Email :</span> <a href="mailto:support@gardateknika.com">support@gardateknika.com</a></p>
             </div>
           </div>
+
+
           <div class="row block-9">
             <div class="col-md-5 pr-md-5">
               <form action="#">

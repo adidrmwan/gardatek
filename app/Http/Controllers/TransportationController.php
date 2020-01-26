@@ -13,7 +13,7 @@ class TransportationController extends Controller
      */
     public function index()
     {
-        return view('products.transportation.index');
+        return view('products.trasportation.index');
     }
 
     /**

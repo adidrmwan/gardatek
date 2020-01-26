@@ -4,45 +4,45 @@
       @include('components.header')
 
       <section class="home-slider owl-carousel">
-        <a href="portfolio.html" class="slider-item" style="background-image: url(images/bg_1.jpg);">
+        <a href="#" class="slider-item" style="background-image: url(images/homepage-1.jpg);">
           <div class="overlay"></div>
           <div class="container">
             <div class="row slider-text align-items-end justify-content-center">
               <div class="col-md-12 ftco-animate p-4" data-scrollax=" properties: { translateY: '70%' }">
-                <h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">#01 Exterior Building</h1>
+                
               </div>
             </div>
           </div>
         </a>
 
-        <a href="portfolio.html" class="slider-item" style="background-image: url('images/bg_2.jpg');">
+        <a href="#" class="slider-item" style="background-image: url('images/homepage-2.jpg');">
           <div class="overlay"></div>
           <div class="container">
             <div class="row slider-text align-items-end justify-content-center">
               <div class="col-md-12 ftco-animate p-4" data-scrollax=" properties: { translateY: '70%' }">
-                <h1 class="mb-3" data-scrollax="properties: {translateY: '30%', opacity: 1.6}">#02 American Building</h1>
+                
               </div>
             </div>
           </div>
         </a>
 
-        <a href="portfolio.html" class="slider-item" style="background-image: url('images/bg_3.jpg');">
+        <a href="#" class="slider-item" style="background-image: url('images/homepage-3.jpg');">
           <div class="overlay"></div>
           <div class="container">
             <div class="row slider-text align-items-end justify-content-center">
               <div class="col-md-12 ftco-animate p-4" data-scrollax=" properties: { translateY: '70%' }">
-                <h1 class="mb-3" data-scrollax="properties: {translateY: '30%', opacity: 1.6}">#03 Louie's Residences</h1>
+                
               </div>
             </div>
           </div>
         </a>
 
-        <a href="portfolio.html" class="slider-item" style="background-image: url('images/bg_4.jpg');">
+        <a href="#" class="slider-item" style="background-image: url('images/homepage-4.jpg');">
           <div class="overlay"></div>
           <div class="container">
             <div class="row slider-text align-items-end justify-content-center">
               <div class="col-md-12 ftco-animate p-4" data-scrollax=" properties: { translateY: '70%' }">
-                <h1 class="mb-3" data-scrollax="properties: {translateY: '30%', opacity: 1.6}">#04 Business Building</h1>
+                
               </div>
             </div>
           </div>
@@ -56,7 +56,8 @@
             <h3 class="mb-3">About Us</h3> 
               <p>PT. GARDA <span style="color: #fe4c50;"> TEKNIKA </span> is a company with extensive experience in the instrumentation products for measurement, monitoring and Quality control. <br>Our products and control systems bring enormous advantages to industry and also education with greater effectiveness in the implementation of industrial processes and as a direct result the client takes advantage of a greater performance and higher profitability of the available means. </p>
 		        </div>
-		        <div class="col-md-5 d-flex justify-content-center align-items-center img exp" style="background-image: url(images/image_1.jpg);">
+		        <div class="col-md-5 d-flex justify-content-center align-items-center img exp" >
+            <img src="images/logo.png" alt="logo-gardateknika" class="img-fluid" style="width:70%;">
 		        </div>
 	        </div>
 	    	</div>
@@ -83,6 +84,8 @@
                   <a class="nav-link px-4" id="v-pills-transportation-tab" data-toggle="pill" href="#v-pills-transportation" role="tab" aria-controls="v-pills-transportation" aria-selected="false"><span class="mr-3 flaticon-modern-house"></span> Transportation Engineering</a>
 
                   <a class="nav-link px-4" id="v-pills-photonic-tab" data-toggle="pill" href="#v-pills-photonic" role="tab" aria-controls="v-pills-photonic" aria-selected="false"><span class="mr-3 flaticon-skyline"></span> Photonic Technology & Smart</a>
+
+                  <a class="nav-link px-4" id="v-pills-food-tab" data-toggle="pill" href="#v-pills-food" role="tab" aria-controls="v-pills-food" aria-selected="false"><span class="mr-3 flaticon-skyline"></span> Food Tech</a>
                 </div>
               </div>
               <div class="col-md-7 ftco-animate p-4 p-md-5 d-flex align-items-center">
@@ -90,59 +93,83 @@
                 <div class="tab-content pl-md-5" id="v-pills-tabContent">
 
                   <div class="tab-pane fade show active py-5" id="v-pills-research" role="tabpanel" aria-labelledby="v-pills-research-tab">
-                    <span class="icon mb-3 d-block flaticon-house-plans"></span>
                     <h2 class="mb-4">Material Research</h2>
-                    <p>Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto facilis officiis nobis sit quis molestias asperiores rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam natus quaerat doloremque.</p>
-                    <p><a href="#" class="btn btn-primary px-4 py-3">Learn More</a></p>
+                    <div style="margin-bottom:40px;">
+                      <img src="images/banner_1.jpeg" alt="material-research" class="img-fluid" style="width:100%;">
+                    </div>
+                    <p><a href="{{ route('material-research.index')}}" class="btn btn-primary px-4 py-3">Click Me</a></p>
                   </div>
 
                   <div class="tab-pane fade py-5" id="v-pills-agriculture" role="tabpanel" aria-labelledby="v-pills-agriculture-tab">
-                    <span class="icon mb-3 d-block flaticon-ideas"></span>
+                    
                     <h2 class="mb-4">Agriculture</h2>
-                    <p>Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto facilis officiis nobis sit quis molestias asperiores rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam natus quaerat doloremque.</p>
-                    <p><a href="#" class="btn btn-primary px-4 py-3">Learn More</a></p>
+                    <div style="margin-bottom:40px;">
+                      <img src="images/banner_5.jpg" alt="material-research" class="img-fluid" style="width:70%;">
+                    </div>
+                    <p><a href="{{ route('agriculture.index') }}" class="btn btn-primary px-4 py-3">Click Me </a></p>
                   </div>
 
                   <div class="tab-pane fade py-5" id="v-pills-automation" role="tabpanel" aria-labelledby="v-pills-automation-tab">
-                    <span class="icon mb-3 d-block flaticon-modern-house"></span>
+                    
                     <h2 class="mb-4">Automation System</h2>
-                    <p>Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto facilis officiis nobis sit quis molestias asperiores rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam natus quaerat doloremque.</p>
-                    <p><a href="#" class="btn btn-primary px-4 py-3">Learn More</a></p>
+                    <div style="margin-bottom:40px;">
+                      <img src="images/banner_4.jpg" alt="material-research" class="img-fluid" style="width:70%;">
+                    </div>
+                    <p><a href="{{route('automation-system.index') }}" class="btn btn-primary px-4 py-3">Click Me </a></p>
                   </div>
 
                   <div class="tab-pane fade py-5" id="v-pills-engineering" role="tabpanel" aria-labelledby="v-pills-engineering-tab">
-                    <span class="icon mb-3 d-block flaticon-skyline"></span>
+                    
                     <h2 class="mb-4">Engineering</h2>
-                    <p>Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto facilis officiis nobis sit quis molestias asperiores rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam natus quaerat doloremque.</p>
-                    <p><a href="#" class="btn btn-primary px-4 py-3">Learn More</a></p>
+                    <div style="margin-bottom:40px;">
+                      <img src="images/engineering.png" alt="material-research" class="img-fluid" style="width:70%;">
+                    </div>
+                    <p><a href="{{ route('engineering.index') }}" class="btn btn-primary px-4 py-3">Click Me</a></p>
                   </div>
 
                   <div class="tab-pane fade py-5" id="v-pills-medicine" role="tabpanel" aria-labelledby="v-pills-medicine-tab">
-                    <span class="icon mb-3 d-block flaticon-skyline"></span>
+                    
                     <h2 class="mb-4">Medicine</h2>
-                    <p>Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto facilis officiis nobis sit quis molestias asperiores rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam natus quaerat doloremque.</p>
-                    <p><a href="#" class="btn btn-primary px-4 py-3">Learn More</a></p>
+                    <div style="margin-bottom:40px;">
+                      <img src="images/medicine.png" alt="material-research" class="img-fluid" style="width:70%;">
+                    </div>
+                    <p><a href="{{ route('medicine.index') }}" class="btn btn-primary px-4 py-3">Click Me </a></p>
                   </div>
 
                   <div class="tab-pane fade py-5" id="v-pills-energy" role="tabpanel" aria-labelledby="v-pills-energy-tab">
-                    <span class="icon mb-3 d-block flaticon-skyline"></span>
+                    
                     <h2 class="mb-4">Energy</h2>
-                    <p>Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto facilis officiis nobis sit quis molestias asperiores rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam natus quaerat doloremque.</p>
-                    <p><a href="#" class="btn btn-primary px-4 py-3">Learn More</a></p>
+                    <div style="margin-bottom:40px;">
+                      <img src="images/banner_7.jpg" alt="material-research" class="img-fluid" style="width:70%;">
+                    </div>
+                    <p><a href="{{ route('energy.index') }}" class="btn btn-primary px-4 py-3">Click Me </a></p>
                   </div>
 
                   <div class="tab-pane fade py-5" id="v-pills-transportation" role="tabpanel" aria-labelledby="v-pills-transportation-tab">
-                    <span class="icon mb-3 d-block flaticon-skyline"></span>
+                    
                     <h2 class="mb-4">Transportation Engineering</h2>
-                    <p>Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto facilis officiis nobis sit quis molestias asperiores rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam natus quaerat doloremque.</p>
-                    <p><a href="#" class="btn btn-primary px-4 py-3">Learn More</a></p>
+                    <div style="margin-bottom:40px;">
+                      <img src="images/banner_8.png" alt="material-research" class="img-fluid" style="width:70%;">
+                    </div>
+                    <p><a href="{{ route('transportation-engineering.index') }}" class="btn btn-primary px-4 py-3">Click Me </a></p>
                   </div>
 
                   <div class="tab-pane fade py-5" id="v-pills-photonic" role="tabpanel" aria-labelledby="v-pills-photonic-tab">
-                    <span class="icon mb-3 d-block flaticon-skyline"></span>
+                    
                     <h2 class="mb-4">Photonic Technology & Smart</h2>
-                    <p>Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto facilis officiis nobis sit quis molestias asperiores rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam natus quaerat doloremque.</p>
-                    <p><a href="#" class="btn btn-primary px-4 py-3">Learn More</a></p>
+                    <div style="margin-bottom:40px;">
+                      <img src="images/banner_9.png" alt="material-research" class="img-fluid" style="width:70%;">
+                    </div>
+                    <p><a href="{{ route('photonic-technology.index') }}" class="btn btn-primary px-4 py-3">Click Me</a></p>
+                  </div>
+
+                  <div class="tab-pane fade py-5" id="v-pills-food" role="tabpanel" aria-labelledby="v-pills-food-tab">
+                    
+                    <h2 class="mb-4">Food Tech</h2>
+                    <div style="margin-bottom:40px;">
+                      <img src="images/foodtech.png" alt="material-research" class="img-fluid" style="width:70%;">
+                    </div>
+                    <p><a href="{{ route('food-tech.index') }}" class="btn btn-primary px-4 py-3">Click Me</a></p>
                   </div>
 
                 </div>
@@ -168,7 +195,7 @@
                     <div class="icon mb-2"><span class="flaticon-skyline"></span></div>
                     <!-- <h3 class="mb-3">Standard Plan</h3> -->
                     <p class="mb-4">No Upcoming event and news</p>
-                    <p><a href="#" class="btn btn-primary px-4 py-3">More Info</a></p>
+                    <!-- <p><a href="" class="btn btn-primary px-4 py-3">More Info</a></p> -->
                   </div>
                 </div>
                 <div class="col-md-4 mb-3 text-center ftco-animate">

@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5,
 }
 
 
-#colorlib-main-nav {
+#gardatek-main-nav {
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -117,7 +117,7 @@ h1, h2, h3, h4, h5,
 	-o-transform: scale(0.0);
 	transform: scale(0.0);
 	overflow-y: scroll;
-	.colorlib-table{
+	.gardatek-table{
 		display: table;
 		width: 100%;
 		height: 100%;
@@ -142,12 +142,12 @@ h1, h2, h3, h4, h5,
 				opacity: 1;
 			}
 		}
-		.colorlib-table-cell{
+		.gardatek-table-cell{
 			display: table-cell;
 			vertical-align: middle;
 		}
 	}
-	.colorlib-nav-toggle {
+	.gardatek-nav-toggle {
 		position: absolute;
 		top: 40px;
 		right: 40px;
@@ -309,9 +309,9 @@ header{
 		padding: 2em 0;
 		position: absolute;
 	}
-	.colorlib-navbar-brand{
+	.gardatek-navbar-brand{
 		width: 100%;
-		.colorlib-logo{
+		.gardatek-logo{
 			font-size: 20px;
 			color: $white;
 			text-transform: uppercase;
@@ -348,7 +348,7 @@ header{
 
 
 
-.colorlib-nav-toggle {
+.gardatek-nav-toggle {
    cursor: pointer;
    text-decoration: none;
    &.active i {
@@ -409,22 +409,22 @@ header{
   }
 }
 
-.colorlib-nav-toggle i::before {
+.gardatek-nav-toggle i::before {
   top: -7px;
 }
-.colorlib-nav-toggle i::after {
+.gardatek-nav-toggle i::after {
   bottom: -7px;
 }
-.colorlib-nav-toggle:hover i::before {
+.gardatek-nav-toggle:hover i::before {
   top: -10px;
 }
-.colorlib-nav-toggle:hover i::after {
+.gardatek-nav-toggle:hover i::after {
   bottom: -10px;
 }
-.colorlib-nav-toggle.active i {
+.gardatek-nav-toggle.active i {
 	background: transparent;
 }
-.colorlib-nav-toggle.active i::before {
+.gardatek-nav-toggle.active i::before {
   top:0;
   -webkit-transform: rotateZ(45deg);
      -moz-transform: rotateZ(45deg);
@@ -432,7 +432,7 @@ header{
        -o-transform: rotateZ(45deg);
           transform: rotateZ(45deg);
 }
-.colorlib-nav-toggle.active i::after {
+.gardatek-nav-toggle.active i::after {
   bottom:0;
   -webkit-transform: rotateZ(-45deg);
      -moz-transform: rotateZ(-45deg);
@@ -440,7 +440,7 @@ header{
        -o-transform: rotateZ(-45deg);
           transform: rotateZ(-45deg);
 }
-.colorlib-nav-toggle {
+.gardatek-nav-toggle {
 	float: right;
 	z-index: 1003;
 	position: absolute;

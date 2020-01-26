@@ -4,7 +4,7 @@
     <div>
     @include('components.header')
 
-      <section class="hero-wrap" style="background-image: url(images/bg_2.jpg);">
+      <section class="hero-wrap" style="background-image: url(images/our-products.jpg);">
       	<div class="overlay"></div>
 	      <div class="container">
 	        <div class="row no-gutters text align-items-end justify-content-center" data-scrollax-parent="true">
@@ -22,21 +22,19 @@
 		    		<div class="col-md-4">
 		    			<div class="row">
 			    			<div class="col-md-12 heading-section ftco-animate mb-3">
-		              <h2 class="mb-4">Products</h2>
-		              <!-- <p>Far far away, behind the word mountains, far from the countries Vokalia </p> -->
-		            </div>
-	            </div>
+								<h2 class="mb-4">Products</h2>
+							</div>
+	            		</div>
 		    			<a href="{{ route('material-research.index') }}" class="portfolio ftco-animate">
 		    				<div class="d-flex icon justify-content-center align-items-center">
 		    					<span class="ion-md-search"></span>
 		    				</div>
 		    				<div class="d-flex heading align-items-end">
 		    					<h3>
-		    						<span>Material Research</span><br>
-		    						Work 01
+		    						Material Research
 		    					</h3>
 		    				</div>
-		    				<img src="images/image_3.jpg" class="img-fluid" alt="Colorlib Template">
+		    				<img src="images/banner_1.jpeg" class="img-fluid" >
 		    			</a>
 		    			<a href="{{ route('agriculture.index') }}" class="portfolio ftco-animate">
 			    			<div class="d-flex icon justify-content-center align-items-center">
@@ -44,38 +42,54 @@
 		    				</div>
 		    				<div class="d-flex heading align-items-end">
 		    					<h3>
-		    						<span>Agriculture</span><br>
-		    						Work 02
+		    						Agriculture
 		    					</h3>
 		    				</div>
-		    				<img src="images/image_2.jpg" class="img-fluid" alt="Colorlib Template">
+		    				<img src="images/banner_5.jpg" class="img-fluid" >
 		    			</a>
-		    			<a href="automation-system" class="portfolio ftco-animate">
+		    			<a href="{{route('automation-system.index') }}" class="portfolio ftco-animate">
 			    			<div class="d-flex icon justify-content-center align-items-center">
 			    				<span class="ion-md-search"></span>
 			    			</div>
 			    			<div class="d-flex heading align-items-end">
 		    					<h3>
-		    						<span>Automation System</span><br>
-		    						Work 03
+		    						Automation System
 		    					</h3>
 		    				</div>
-		    				<img src="images/image_9.jpg" class="img-fluid" alt="Colorlib Template">
+		    				<img src="images/banner_4.jpg" class="img-fluid" >
 		    			</a>
 		    		</div>
 		    		<div class="col-md-8">
-		    			<a href="{{ route('engineering.index') }}" class="portfolio ftco-animate">
-			    			<div class="d-flex icon justify-content-center align-items-center">
-			    					<span class="ion-md-search"></span>
-			    			</div>
-			    			<div class="d-flex heading align-items-end">
-		    					<h3>
-		    						<span>Engineering</span><br>
-		    						Work 04
-		    					</h3>
+						<div class="row">
+							<div class="col-md-4">
+		    					<a href="{{ route('food-tech.index') }}" class="portfolio ftco-animate">
+			    					<div class="d-flex icon justify-content-center align-items-center">
+			    						<span class="ion-md-search"></span>
+			    				  </div>
+			    				  <div class="d-flex heading align-items-end">
+				    					<h3>
+				    						Food Tech
+				    						
+				    					</h3>
+				    				</div>
+				    				<img src="images/banner_foodtech_2.jpg" class="img-fluid" >
+				    			</a>
 		    				</div>
-		    				<img src="images/image_1.jpg" class="img-fluid" alt="Colorlib Template">
-		    			</a>
+							<div class="col-md-8">
+								<a href="{{ route('engineering.index') }}" class="portfolio ftco-animate">
+									<div class="d-flex icon justify-content-center align-items-center">
+											<span class="ion-md-search"></span>
+									</div>
+									<div class="d-flex heading align-items-end">
+										<h3>
+											Engineering
+										</h3>
+									</div>
+									<img src="images/banner_engineering_2.jpg" class="img-fluid" >
+								</a>
+							</div>
+							
+						</div>
 		    			<div class="row">
 		    				<div class="col-md-6">
 		    					<a href="{{ route('medicine.index') }}" class="portfolio ftco-animate">
@@ -84,11 +98,10 @@
 				    				</div>
 				    				<div class="d-flex heading align-items-end">
 				    					<h3>
-				    						<span>Medicine</span><br>
-				    						Work 05
+				    						Medicine
 				    					</h3>
 				    				</div>
-				    				<img src="images/image_5.jpg" class="img-fluid" alt="Colorlib Template">
+				    				<img src="images/banner_medicine.jpg" class="img-fluid" >
 				    			</a>
 		    				</div>
 		    				<div class="col-md-6">
@@ -98,11 +111,10 @@
 				    				</div>
 				    				<div class="d-flex heading align-items-end">
 				    					<h3>
-				    						<span>Energy</span><br>
-				    						Work 06
+				    						Energy
 				    					</h3>
 				    				</div>
-				    				<img src="images/image_6.jpg" class="img-fluid" alt="Colorlib Template">
+				    				<img src="images/banner_7.jpg" class="img-fluid" >
 				    			</a>
 		    				</div>
 		    			</div>
@@ -114,11 +126,10 @@
 				    				</div>
 				    				<div class="d-flex heading align-items-end">
 				    					<h3>
-				    						<span>Transportation Engineering</span><br>
-				    						Work 07
+				    						Transportation Engineering
 				    					</h3>
 				    				</div>
-				    				<img src="images/image_7.jpg" class="img-fluid" alt="Colorlib Template">
+				    				<img src="images/banner_8.png" class="img-fluid" >
 				    			</a>
 		    				</div>
 		    				<div class="col-md-4">
@@ -128,11 +139,11 @@
 			    				  </div>
 			    				  <div class="d-flex heading align-items-end">
 				    					<h3>
-				    						<span>Photonic Technology & Smart</span><br>
-				    						Work 08
+				    						Photonic Technology & Smart
+				    						
 				    					</h3>
 				    				</div>
-				    				<img src="images/image_4.jpg" class="img-fluid" alt="Colorlib Template">
+				    				<img src="images/banner_photonic.jpg" class="img-fluid" >
 				    			</a>
 		    				</div>
 		    			</div>

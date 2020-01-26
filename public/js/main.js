@@ -74,7 +74,7 @@ $(document).ready(function($) {
 					items: 2
 				},
 				1000:{
-					items: 2
+					items: 3
 				}
 			}
 		});
@@ -93,16 +93,16 @@ $(document).ready(function($) {
 
 	var burgerMenu = function() {
 
-		$('.js-colorlib-nav-toggle').on('click', function(event) {
+		$('.js-gardatek-nav-toggle').on('click', function(event) {
 			event.preventDefault();
 			var $this = $(this);
 			if( $('body').hasClass('menu-show') ) {
 				$('body').removeClass('menu-show');
-				$('#colorlib-main-nav > .js-colorlib-nav-toggle').removeClass('show');
+				$('#gardatek-main-nav > .js-gardatek-nav-toggle').removeClass('show');
 			} else {
 				$('body').addClass('menu-show');
 				setTimeout(function(){
-					$('#colorlib-main-nav > .js-colorlib-nav-toggle').addClass('show');
+					$('#gardatek-main-nav > .js-gardatek-nav-toggle').addClass('show');
 				}, 900);
 			}
 		})

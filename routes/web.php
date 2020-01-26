@@ -31,4 +31,5 @@ Route::resource('material-research',			'materialController');
 Route::resource('medicine',			            'MedicineController');
 Route::resource('photonic-technology',			'PhotonicController');
 Route::resource('transportation-engineering',	'TransportationController');
+Route::resource('food-tech',	                'FoodController');
 

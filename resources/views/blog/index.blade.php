@@ -2,7 +2,7 @@
 
 @section('content')
       @include('components.header')
-      <section class="hero-wrap" style="background-image: url(images/bg_2.jpg);">
+      <section class="hero-wrap" style="background-image: url(images/news.jpg);">
       	<div class="overlay"></div>
 	      <div class="container">
 	        <div class="row no-gutters text align-items-end justify-content-center" data-scrollax-parent="true">
@@ -20,7 +20,7 @@
                 </div>
 	          <div class="col-md-8 ftco-animate">
 	            <div class="blog-entry align-self-stretch d-flex">
-	              <a href="#" class="block-20 order-md-last d-flex justify-content-center align-items-center" style="background-image: url('images/image_1.jpg');">
+	              <a href="#" class="block-20 order-md-last d-flex justify-content-center align-items-center" style="background-image: url('images/news-2.jpg');">
 	              </a>
 	              <div class="text p-4 d-block">
 	                <h3 class="heading mt-3">There is no news and events</h3>

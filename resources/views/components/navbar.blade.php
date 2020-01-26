@@ -1,8 +1,8 @@
-<nav id="colorlib-main-nav" class="border" role="navigation">
-  <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle active"><i></i></a>
-  <div class="js-fullheight colorlib-table">
-    <div class="img" style="background-image: url(images/bg_2.jpg);"></div>
-    <div class="colorlib-table-cell js-fullheight">
+<nav id="gardatek-main-nav" class="border" role="navigation">
+  <a href="#" class="js-gardatek-nav-toggle gardatek-nav-toggle active"><i></i></a>
+  <div class="js-fullheight gardatek-table">
+    <div class="img" style="background-image: url(images/contact-us.jpg);"></div>
+    <div class="gardatek-table-cell js-fullheight">
       <div class="row no-gutters">
         <div class="col-md-12">
           <h1 class="mb-4"><a href="index.html" class="logo">Garda Multi Solusi Teknika</a></h1>

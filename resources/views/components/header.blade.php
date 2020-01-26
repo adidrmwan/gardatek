@@ -1,6 +1,6 @@
 <header>
-    <div class="colorlib-navbar-brand text-center">
-        <a class="colorlib-logo" href="index.html">Garda Teknika</a>
+    <div class="gardatek-navbar-brand text-center">
+        <a class="gardatek-logo" href="{{url('/')}}">Garda Teknika</a>
     </div>
-    <a href="{{url('/')}}" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
+    <a href="{{url('/')}}" class="js-gardatek-nav-toggle gardatek-nav-toggle"><i></i></a>
 </header>

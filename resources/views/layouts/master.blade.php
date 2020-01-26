@@ -36,7 +36,7 @@
     <div class="page">
     @include('components.navbar')
     
-	<div id="colorlib-page">
+	<div id="gardatek-page">
 		@yield('content')
 
 		@include('components.footer')
